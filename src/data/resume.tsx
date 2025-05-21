@@ -1,12 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
-import project1 from "./../assets/Screenshot (24).png";
-import project2 from "./../assets/dnac.png";
-import project3 from "./../assets/delivery.png";
-import project4 from "./../assets/Screenshot (41).png";
-import project5 from "./../assets/Login Page.jpg";
-import project6 from "./../assets/Screenshot (75).png";
-import project7 from "./../assets/Screenshot (76).png";
+
 
 export const DATA = {
   name: "Harshita Verma",
@@ -107,6 +101,9 @@ export const DATA = {
   projects: [
     {
       title: "Quotation System",
+    href: "",
+      dates: "",
+      active: false,
       description:
         "Developed a React project integrating Zoho CRM to pre-fill MUI forms for structured deal tracking. Users submit, edit, export, and re-import data via React-Table-Next and Excel. An AG-Grid table centralizes deal monitoring and quotation standardization. Added unit tests (React Testing Library) and end- to-end client tests for reliability and regression prevention.",
       technologies: [
@@ -125,10 +122,17 @@ export const DATA = {
       //     icon: <Icons.globe className="size-3" />,
       //   },
       // ],
-      image: project1,
+      image:"/Screenshot (24).png",
+      video:
+        "",
+    
     },
     {
       title: "Proactive Enterprise Monitoring",
+      href: "",
+      dates: "",
+      active: false,
+      video:"",
       description:
         "This project is used to monitor VIP users’ network connectivity via Cisco DNA-C, categorizing status as good, poor, or bad. It includes detailed 5-minute interval graphs and ticketing for proactive issue resolution. Prior to this system, there was no efficient method to assess network stability for important users. This solution significantly enhances the client’s efficiency in managing the networking system for VIP users.",
       technologies: [
@@ -139,66 +143,106 @@ export const DATA = {
         "Javascript",
       ],
 
-      image: project2,
+      image: "/dnac.png",
     },
     {
       title: "Delivery System",
+      href: "",
+      dates: "",
+      active: false,
+      video:"",
       description:
         "React portal integrating with Business Central for real-time delivery management. Users update delivery dates via MUI components, improving communication and reducing errors. This system streamlines the delivery management process, reducing manual data entry errors and improving communication between sales and logistics teams.",
       technologies: ["React", "Javascript", "Material UI", "SASS"],
-      image: project3,
+      image: "/delivery.png",
     },
     {
       title: "Cisco Touch Customization",
+      href: "",
+      dates: "",
+      active: false,
+      video:"",
       description:
         "Developed a Cisco Macro (JavaScript + XML) to add a Teams call option on Cisco Touch, enabling seamless call joining. Implemented multiple call modes for PWC and outsourced customers based on video ID, tenant domain, or meeting credentials , improving accessibility and user experience.",
       technologies: ["XML + Jvascript"],
 
-      image: project4,
+      image: "/Screenshot (41).png",
     },
     {
       title: "E-learning Portal",
+      href: "",
+      dates: "",
+      active: false,
+      video:"",
       description:
         "Created a React-based knowledge-sharing platform for onboarding and self-paced learning, featuring progress tracking and assessments. It streamlines knowledge transfer, reduces managers’ effort, and enhances cross-functional understanding, enabling efficient skill-building and onboarding for new hires. ",
       technologies: ["React", "Material UI", "CSS3", "Flexbox"],
 
-      image: project5,
+      image: "/Login Page.jpg",
     },
     {
       title: "Corestrat Website",
+      href: "",
+      dates: "",
+      active: false,
+      video:"",
       description:
         "The website was initially lacking content related to the products that the company offers to its customers, addressed this issue by adding the necessary content to the website.To ensure that the website visitors’ data is properly stored, connected the website’s normal forms with HubSpot.",
       technologies: ["Wordpress"],
 
-      image: project6,
+      image: "/Screenshot (75).png",
     },
     {
       title: "Connect HnT with hubspot of Corestrat Website",
+      href: "",
+      dates: "",
+      active: false,
+      video:"",
       description:
         "Integrated HubSpot’s hiring form with an Angular-based platform to connect HnT with Corestrat’s website. The platform allows job applicants to take role-specific tests, view their results, and receive email notifications for interviews if they pass.",
       technologies: ["Wordpress", "HubSpot", "Angular", "CSS3", "Bootstrap"],
 
-      image: project7,
+      image: "/Screenshot (76).png",
     },
   ],
   hackathons: [
     {
       title: "SavForest",
+      dates: "",
+      location: "",
+      image:
+        "",
+      mlh: "",
       description:
         "Developed a mobile application which delivered bedtime stories to children using augmented realityThis project aims to use data analysis to predict the likelihood of a forest fire based on various attributes. The project used machine learning algorithms to analyze this data and identify patterns that can be used to predict future fire risks. This could be a valuable tool for forest department personnel to proactively prevent and manage forest fires.",
     },
      {
       title: "LawForum",
+      dates: "",
+      location: "",
+      image:
+        "",
+      mlh: "",
       description:
         "Developed a specialized Q&A platform for legal queries, similar to Stack Overflow, using Django. The platform bridges the knowledge gap between legal experts, students, and the public by enabling question posting, expert answers, and a user reputation system. It reduces reliance on costly legal consultations and improves legal literacy, fostering informed decision- making."
     },
      {
       title: "Banasthali Cov Care",
+      dates: "",
+      location: "",
+      image:
+        "",
+      mlh: "",
       description:
         "The project aims to develop a comprehensive Health Management System for a college, designed to provide seamless healthcare services to students, teaching staff, and non-teaching staff within the campus premises. This centralized digital platform will act as a one-stop solution for all health-related needs and services. To begin using the system, users are required to register for the first time, providing basic personal and health information to create their unique profiles. Once registered, they can log in to the portal anytime to access their health records, updates, and available services."
     },
      {
       title: "Weather Application",
+      dates: "",
+      location: "",
+      image:
+        "",
+      mlh: "",
       description:
       "In this project we make a weather app in react. In this project, we use openweather API which provides us free API to get weather details. Here we will add an input where user will add any city name and as soon city name gets entered details will be fetched to the screen."
     },
