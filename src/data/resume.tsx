@@ -246,6 +246,16 @@ export const DATA = {
       description:
       "In this project we make a weather app in react. In this project, we use openweather API which provides us free API to get weather details. Here we will add an input where user will add any city name and as soon city name gets entered details will be fetched to the screen."
     },
+     {
+      title: "AI-powered-chatbot-interface",
+      dates: "",
+      location: "",
+      image:
+        "",
+      mlh: "",
+      description:
+      "This React-based AI Chat Assistant is a sophisticated application showcasing dynamic UI development, robust API integration, and an extensible plugin architecture, designed to provide a versatile conversational experience; it features a seamless chat interface with persistent history (via localStorage) and typing indicators, while its core innovation lies in the modular plugin system that enables functionalities like fetching weather data (from OpenWeatherMap), performing calculations, and retrieving word definitions (from a Dictionary API) by intelligently parsing user inputs—including natural language queries and slash commands—and rendering rich, custom-styled responses, all built efficiently with Tailwind CSS for a responsive and intuitive user experience."
+    },
     
   ],
 } as const;
